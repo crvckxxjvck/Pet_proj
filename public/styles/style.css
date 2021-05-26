@@ -1,0 +1,88 @@
+
+body {
+  padding: 50px;
+  background-color: rgb(240, 240, 240);
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 14px;
+	font-weight: strong;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgb(185, 189, 185);
+  padding-left: 15px;
+}
+
+.main {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 400px;
+  height: 600px;
+  padding: 24px;
+  text-align: center;
+  background-color: white;
+  border: solid 1px grey;
+}
+.button {
+  border: none;
+  width: 315px;
+  height: 45px;
+  align-content: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 28px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: rgb(25, 119, 235); 
+  color: white; 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button1 {
+  
+  background-color: white; 
+  color: rgb(85, 82, 82); 
+  border: 2px solid rgb(185, 189, 185);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {
+
+  background-color: white; 
+  color: rgb(85, 82, 82); 
+  border: 1px solid rgb(10, 83, 172);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.ic {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 190px;
+  height: 30px;
+}
+
+span {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: rgb(82, 79, 79); 
+}
+
+.svgic {
+  margin-right: 4px;
+}
+
+.addphoto-link {
+  margin-bottom: 20px;
+}
+.addphoto-link a {
+  text-decoration: none;
+  color: #32a889;
+}
+.not_valid {
+  background-color: rgb(248, 183, 183);
+}

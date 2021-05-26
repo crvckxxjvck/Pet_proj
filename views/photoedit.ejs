@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Edit photo</title>
+  <link rel="icon" type="image/png" href="/icon/ProGalleryIcon.svg">
+  <link rel='stylesheet' href='/styles/main.css' />
+</head>
+
+<body>
+  
+  <h1>Edit photo</h1>
+  <h2>Common info</h2>
+  <div class="main">
+    <form class="mainform" name="mainform">
+      <div class="label"><span>Photo title</span><input type="text" class="name-inp" name="title" value="<%= photoObj.title %>"></div>
+      <div class="label"><span>Tags</span><input type="text" class="name-inp" name="tags" value="<%= photoObj.tagsStr %>"></div>
+      <div class="label"><input type="hidden" class="name-inp" name="id" value="<%= photoObj.id %>" ></div>
+      <button type="submit">
+        Ok
+      </button>
+      <div class="status"></div>
+    </form>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.js"></script>
+  <script src="/js/photoedit.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+body {
+  padding: 50px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: strong;
+}
+
+.main {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.api-link {
+  width: 10%;
+}
+
+.mainform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+input {
+  margin: 0px 0px 10px 10px;
+}
+
+.author-inp {
+  width: 150px;
+}
+
+.date-inp {
+  width: 110px;
+}
+
+.author-text {
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.tags-inp {
+  width: 200px;
+}
+
+.status {
+  margin-top: 20px;
+  color: blue;
+}
+
+button {
+  width: 70px;
+  height: 30px;
+}
+
+.not_valid {
+  background-color: #f8b7b7;
+}

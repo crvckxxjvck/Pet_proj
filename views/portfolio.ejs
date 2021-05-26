@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%=user%>'s Portfolio </title>
+  <link rel="icon" type="image/png"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Check_green_icon.svg/323px-Check_green_icon.svg.png" />
+</head>
+
+<body>
+
+  <h1><%=user%>'s photos</h1>
+  <div class="main">
+    <% for (i=0; i< data.length; i++) { %>
+      <div class="photo<%=i+1%>"> <%-data[i].filename%>  </div>
+    }%>
+    
+  </div>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+

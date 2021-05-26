@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Update profile</title>
+    <link rel="icon" type="image/png" href="/icon/ProGalleryIcon.svg">
+        <link rel='stylesheet' href='/styles/style.css' />
+</head>
+
+<body>
+
+    <div class="main">
+
+        
+        <h1>Login: <%-login%></h1>
+        <h1>status: <%-status%></h1>
+  
+        <form class="mainform">
+            <input type="text" name="name"  value=<%-name%>><br><br>
+            <input type="text" name="surname" value=<%-surname%>><br><br>
+            <input type="password" name="password" placeholder="new password"><br><br>  
+            <input type="password" name="password_confirm" placeholder="repeat new password"><br><br>  
+            <div class="answ2"></div>
+            <input type="email" name="mail" value=<%-mail%>><br><br>
+            <input type="tel" name="telephone"  pattern="^\+[3][8]\((0\d{2})\)(\d{7})$" value=<%-telephone%>><br><br>
+            <input type="date" name="dateBirthday"  value=<%-dateBirthday%>><br><br>
+            <button class="button" type="submit">Update profile</button>
+        </form><br><br>
+        
+        <a href="/">Go to back</a><br><br>
+      
+
+        <div class="answ"></div>
+      
+      </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.js"></script>
+    <script src="/js/updateProfile.js"></script>
+
+</body>
+
+</html>

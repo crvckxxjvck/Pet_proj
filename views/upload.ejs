@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Add new photo</title>
+
+  <link rel="icon" type="image/png" href="/icon/ProGalleryIcon.svg">  
+  <link rel='stylesheet' href='/styles/main.css' />
+</head>
+
+<body>
+
+  <h1>Adding a photo</h1>
+    <h2>Common info</h2>
+    <div class="main">
+      <form class="mainform" name="mainform">
+        <div class="label"><span>Photo title</span><input type="text" class="name-inp" name="title"></div>
+        <div class="label"><span>Tags</span><input type="text" class="name-inp" name="tags"></div>
+        <input type="file" class="file-inp" name="dowloads" >
+        <button type="submit">
+          Ok
+        </button>
+        <div class="status"></div>
+      </form>
+
+      
+    </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.js"></script>
+  <script src="/js/upload.js"></script>
+
+</body>
+
+</html>
