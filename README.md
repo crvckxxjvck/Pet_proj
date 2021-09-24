@@ -1,7 +1,4 @@
-# ProGallery
-
-**ProGallery by C9**
-
-dev url http://localhost:9000
-
-* in process: roles, multiupload.
+### The project implements uploading photos
+### The project implements user authentication and authorization using Passport, JWT
+### MongoDB, (mongoose ORM) is used as a database,
+### Express is used as the base framework
